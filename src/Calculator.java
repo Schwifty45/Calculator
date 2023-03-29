@@ -36,7 +36,6 @@ public Calculator() {
             }
         }
     });
-
     milesBtn.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -48,7 +47,6 @@ public Calculator() {
             }
         }
     });
-
     multiplyBtn.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -60,7 +58,6 @@ public Calculator() {
             }
         }
     });
-
     divBtn.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -72,7 +69,6 @@ public Calculator() {
             }
         }
     });
-
     clearBtn.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -82,7 +78,6 @@ public Calculator() {
             operators.clear();
         }
     });
-
     equalsButton.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
